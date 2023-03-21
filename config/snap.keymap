@@ -36,12 +36,12 @@
 			label = "Function";
 			sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp C_NEXT C_PREV>;
 			bindings = <
-             &bootloader &trans   &trans   &trans   &trans   &trans   &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &bootloader
-&kp C_PP     &bt BT_CLR  &trans   &trans   &trans   &trans   &trans   &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &trans     &kp C_PP
-&trans       &trans      &trans   &trans   &trans   &trans            &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &trans     &trans 
-&trans       &trans      &trans   &trans   &trans   &trans            &trans     &trans   &trans   &trans   &trans    &trans      &trans                   &trans     &trans
-&trans       &trans      &trans   &trans   &trans   &trans   &trans   &trans     &trans   &trans   &trans   &trans    &trans          &rgb_ug RGB_TOG &rgb_ug RGB_BRI &rgb_ug RGB_EFF
-&trans       &trans      &trans   &trans            &trans           &trans       &trans                    &trans    &trans  &trans  &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_HUI
+             &bootloader &trans         &trans         &trans         &trans         &trans   &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &bootloader
+&kp C_PP     &bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4   &trans   &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &trans     &kp C_PP
+&trans       &trans      &trans         &trans         &trans         &trans                  &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &trans     &trans 
+&trans       &trans      &trans         &trans         &trans         &trans                  &trans     &trans   &trans   &trans   &trans    &trans      &trans                   &trans     &trans
+&trans       &trans      &trans         &trans         &trans         &trans         &trans   &trans     &trans   &trans   &trans   &trans    &trans          &rgb_ug RGB_TOG &rgb_ug RGB_BRI &rgb_ug RGB_EFF
+&trans       &trans      &trans         &trans                  &trans                 &trans       &trans                    &trans    &trans  &trans  &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_HUI
 			>;
 		};
 	};
