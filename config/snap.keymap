@@ -34,7 +34,7 @@
 
 		function_layer {
 			label = "Function";
-			sensor-bindings = <&inc_dec_kp C_NEXT C_PREV &inc_dec_kp C_NEXT C_PREV>;
+			sensor-bindings = <&inc_dec_kp C_PREV C_NEXT &inc_dec_kp C_NEXT C_PREV>;
 			bindings = <
              &bootloader &trans         &trans         &trans         &trans         &trans   &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &bootloader
 &kp C_PP     &bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &trans   &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &trans     &kp C_PP
