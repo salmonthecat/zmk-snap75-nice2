@@ -41,7 +41,7 @@
 &trans       &trans      &trans         &trans         &trans         &trans                  &trans     &trans   &trans   &trans   &trans    &trans      &trans      &trans       &trans     &trans 
 &trans       &trans      &trans         &trans         &trans         &trans                  &trans     &trans   &trans   &trans   &trans    &trans      &trans                   &trans     &trans
 &trans       &trans      &trans         &trans         &trans         &trans         &trans   &trans     &trans   &trans   &trans   &trans    &trans          &rgb_ug RGB_TOG &rgb_ug RGB_BRI &rgb_ug RGB_EFF
-&trans       &trans      &trans         &trans         &trans         &kp RET         &trans                    &trans    &trans  &trans  &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_HUI
+&trans       &trans      &trans         &trans         &kp BSPC         &kp RET         &trans                    &kp DEL    &trans  &trans  &rgb_ug RGB_HUD &rgb_ug RGB_BRD &rgb_ug RGB_HUI
 			>;
 		};
 	};
